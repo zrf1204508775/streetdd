@@ -1,0 +1,291 @@
+@charset "utf-8";
+
+/* CSS Document */
+.banner {
+	width: 100%;
+	height: 200px;
+}
+
+.banner img {
+	width: 100%;
+	height: 200px;
+}
+
+.O2O_title {
+	width: 1200px;
+	margin: 0 auto;
+	height: 75px;
+	background: #fff;
+	font-size: 13px;
+	font-weight: bold;
+	border-bottom: 1px solid #ececec;
+}
+
+.O2O_title .route {
+	float: left;
+	width: 60%;
+	height: 75px;
+	line-height: 75px;
+}
+
+.O2O_title .route a {
+	display: inline-block;
+	color: #434343;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+.O2O_title .route a.oL {
+	padding-left: 25px;
+	background: url(../img/O2O_01.jpg) no-repeat;
+	background-position: left center;
+}
+
+.O2O_title ul {
+	float: right;
+	height: 75px;
+	width: 33%;
+}
+
+.O2O_title ul li {
+	float: left;
+	height: 72px;
+	line-height: 72px;
+	width: 85px;
+	text-align: center;
+}
+
+.O2O_title ul li.bor {
+	border-bottom: 4px solid #39c782;
+}
+
+.O2O_title ul li a {
+	color: #434343;
+}
+
+#O2O_cont {
+	overflow: hidden;
+	width: 1200px;
+	margin: 0 auto;
+}
+
+#O2O_cont li {
+	display: none;
+	width: 100%;
+	float: left;
+}
+
+#O2O_cont li.active {
+	display: block;
+}
+
+.O2O_content {
+	width: 60%;
+	float: left;
+}
+
+.party {
+	display: none;
+}
+
+.paty {
+	display: block;
+}
+
+
+
+.acp {
+	display: none;
+}
+
+.acp_2 {
+	display: block;
+}
+
+.O2O_content .card {
+	margin-top: 34px;
+	color: #39c782;
+	font-size: 20px;
+}
+
+.O2O_content .card_v {
+	color: #979898;
+}
+
+.O2O_content .card_v p {
+	margin: 34px 0;
+}
+
+.O2O_content .card_v p:first-child {
+	float: left;
+	width: 50%;
+	font-size: 18px;
+}
+
+.O2O_content .card_v p:last-child {
+	float: right;
+	font-size: 14px;
+	padding-right: 16px;
+}
+
+.O2O_content .introduction {
+	margin: 34px 0;
+	line-height: 40px;
+	font-size: 14px;
+	color: #979898;
+}
+
+.O2O_content .card span {
+	display: inline-block;
+	height: 30px;
+	line-height: 30px;
+	font-weight: bold;
+	border-bottom: 4px solid #39c782;
+	font-size: 20px;
+}
+
+.O2O_content .description {
+	padding: 30px 30px 0 0;
+}
+
+.O2O_content .description p {
+	line-height: 32px;
+	font-size: 16px;
+	color: #434343;
+}
+
+.O2O_content .description p a {
+	color: #39c782;
+}
+
+.O2O_content .description p.link_a {
+	margin-top: 45px;
+}
+
+.O2O_content .description img {
+	margin-top: 70px;
+}
+
+.O2O_content .title_new {
+	width: 100%;
+	margin-top: 40px;
+}
+
+.O2O_content .title_new h4 {
+	float: left;
+	width: 50%;
+	color: #505050;
+	font-size: 18px;
+}
+
+.O2O_content .title_new span {
+	float: right;
+	color: #505050;
+	font-size: 12px;
+}
+
+.O2O_content .title_new div {
+	width: 100%;
+	text-align: center;
+}
+
+.O2O_content .title_new div img {
+	width: 700px;
+	height: 350px;
+	margin-top: 20px;
+}
+
+.O2O_banner{ width:30%;  float:right; padding-right:25px; padding-bottom:115px;}
+.O2O_banner a{ width: 100%; height: 160px; margin: 0 auto; display:inline-block; margin-bottom:20px;}
+.O2O_banner img { width: 100%;}
+
+
+.O2O_banner #activity {
+	width: 100%;
+	height: 600px;
+	overflow: hidden;
+	/* overflow-y: scroll; */
+}
+
+.O2O_banner .options {
+	width: 345px;
+	height: 160px;
+	position: relative;
+}
+
+.O2O_banner .options span {
+	display: inline-block;
+	width: 345px;
+	height: 160px;
+	background: rgba(0, 0, 0, 0.5);
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.O2O_banner .options p {
+	width: 345px;
+	height: 30px;
+	line-height: 30px;
+	background: rgba(0, 0, 0, 0.8);
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	color: white;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	text-indent: 0.5cm
+}
+
+.o2o_bn img {
+	margin-top: 34px;
+}
+
+#party {
+	height: 400px;
+	/* overflow-y: scroll; */
+	padding-right: 10px;
+	margin-top: 20px;
+}
+
+.party_dis {
+	margin-bottom: 20px;
+}
+
+.party_dis .options1 {
+	width: 100%;
+	height: 60px;
+	background-color: #eeeeed;
+	cursor: pointer;
+}
+
+.party_dis .options1 div {
+	width: 62px;
+	text-align: center;
+	height: 60px;
+	float: left;
+	background-color: #434343;
+	color: #39c782
+}
+
+.party_dis .options1 div span:first-child {
+	display: block;
+	height: 40px;
+	line-height: 40px;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.party_dis .options1 div span:last-child {
+	font-size: 12px;
+}
+
+.party_dis .options1 p {
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	font-size: 16px;
+	color: #434343;
+	overflow: hidden;
+}

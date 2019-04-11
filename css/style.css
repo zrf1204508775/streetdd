@@ -1,0 +1,231 @@
+@charset "utf-8";
+
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-family: "黑体";
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	border: none;
+}
+
+.header {
+	width: 1200px;
+	height: 90px;
+	margin: 0 auto;
+}
+
+.header .g_wrap {
+	height: 90px;
+	background: white;
+}
+
+.header .g_wrap .logo {
+	display: inline-block;
+	width: 143px;
+	height: 90px;
+}
+.header .g_wrap .logo img{
+	display: block;
+    width: 143px;
+    height: 51px;
+    margin-top: 19.5px;
+}
+
+.header .g_wrap .tel {
+	float: right;
+	height: 90px;
+	line-height: 90px;
+	color: #39c782;
+	padding-left: 40px;
+	background: url(../img/navigation-phone.png) no-repeat;
+	background-position: left center;
+	/* margin-right:6%; */
+	font-size: 20px;
+}
+
+.header .g_wrap .nav {
+	height: 90px;
+    display: inline-block;
+	padding-left: 70px;
+}
+
+.header .g_wrap ul li {
+	float: left;
+	width: 100px;
+	text-align: center;
+	height: 90px;
+	line-height: 90px;
+	position: relative;
+}
+
+.header .g_wrap ul li .span1 {
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 3;
+	display: inline-block;
+	width: 100%;
+	height: 90px;
+	color: black;
+	font-size: 14px;
+	font-weight: 500;
+}
+
+.header .g_wrap ul li .sp2 {
+	color: white;
+}
+
+.header .g_wrap ul li .span2 {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	background: #39c782;
+	width: 100px;
+	height: 0px;
+	z-index: 2;
+	transition: height 200ms;
+}
+
+.header .g_wrap ul li .span3 {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	background: #39c782;
+	width: 100px;
+	height: 90px;
+	z-index: 2;
+	transition: all 300ms;
+	color: white;
+}
+
+.header .g_wrap ul li .tom {
+	width: 800px;
+	height: 0px;
+	transition: all 300ms;
+	background: #333333;
+	position: absolute;
+	left: 0;
+	top: 100%;
+	z-index: 2;
+}
+
+.header .g_wrap ul li:hover .span2 {
+	height: 90px;
+	transition: all 300ms;
+}
+
+.header .g_wrap ul:hover .span3 {
+	height: 0px;
+	transition: all 300ms;
+}
+
+.header .g_wrap ul li:hover .span1 {
+	color: white;
+}
+
+.header .g_wrap ul:hover .sp2 {
+	color: black;
+}
+
+.header .g_wrap ul li:hover .tom {
+	height: 60px;
+	transition: all 300ms;
+}
+
+.header .g_wrap ul li .tom ul {
+	width: 100%;
+	height: 60px;
+	display: none;
+}
+
+.header .g_wrap ul li .tom ul li {
+	width: 100px;
+	height: 60px;
+	line-height: 60px;
+	float: left;
+	color: white;
+	font-size: 14px;
+}
+
+.header .g_wrap ul li .tom ul li a {
+	color: white;
+}
+
+.header .g_wrap ul li:hover .tom ul {
+	display: block;
+}
+
+.header .g_wrap ul li .tom ul li a:hover {
+	color: #39c782;
+	transition: all 300ms;
+}
+
+.footer {
+	height: auto;
+	background: #e5e5e5;
+	position: relative;
+	overflow: hidden;
+}
+
+.footer ul {
+	width: 1200px;
+	height: 180px;
+	padding-top: 56px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.footer ul li {
+	float: left;
+	width: 238px;
+	height: 50px;
+}
+
+.footer ul li div {
+	float: left;
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	border-right: 2px solid #c4c4c4;
+	text-align: center;
+}
+
+.footer ul li div img {
+	margin: 11px;
+}
+
+.footer ul li span {
+	display: inline-block;
+	height: 25px;
+	line-height: 25px;
+	padding-left: 18px;
+	color: #a0a0a0;
+	font-size: 12px;
+}
+
+.footer p {
+	width: 88%;
+	height: 40px;
+	line-height: 40px;
+	overflow: hidden;
+	margin: 0 auto;
+	text-align: center;
+	color: #a0a0a0;
+	position: absolute;
+	bottom: 0;
+	font-size: 12px;
+}
+
+.footer ul li.er{
+	text-align: right;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
