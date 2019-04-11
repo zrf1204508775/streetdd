@@ -168,6 +168,7 @@ img {
 }
 
 .footer {
+	width: 100%;
 	height: auto;
 	background: #e5e5e5;
 	position: relative;
